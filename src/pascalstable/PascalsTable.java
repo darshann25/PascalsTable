@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package pascalstable;
 
 /**
@@ -15,7 +10,7 @@ public class PascalsTable {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        final int SIZE_OF_PASCAL_TABLE = 7;
+        final int SIZE_OF_PASCAL_TABLE = 3;
         int result[][] = getPascalTable(SIZE_OF_PASCAL_TABLE);
         for (int i=0; i<SIZE_OF_PASCAL_TABLE; i++){
             for (int k=0; k<i+1; k++) {
