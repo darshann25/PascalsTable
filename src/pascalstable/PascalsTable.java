@@ -7,11 +7,8 @@ package pascalstable;
 public class PascalsTable {
 
     public static void main(String[] args) {
-<<<<<<< fef7f36e4ac9d7e9586dc04b43185d6b673700cb
+        
         final int SIZE_OF_PASCAL_TABLE = 3;
-=======
-        final int SIZE_OF_PASCAL_TABLE = 0;
->>>>>>> Fix for edge case when input is zero
         int result[][] = getPascalTable(SIZE_OF_PASCAL_TABLE);
         for (int i=0; i<SIZE_OF_PASCAL_TABLE; i++){
             for (int k=0; k<i+1; k++) {
